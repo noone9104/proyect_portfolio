@@ -1,0 +1,252 @@
+/*Tipografias*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+/*Reset CSS*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Reglas generales*/
+
+body {
+    overflow-x: hidden;
+    background-color: #f6f6f6;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header + main {
+    padding-top: 100px;
+}
+
+/*Header*/
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 20px 50px 20px 50px;    
+    background-color: #151515;
+    z-index: 1;
+}
+
+.header__logo {
+    display: inline;
+    position: relative;
+    width: 70px;
+}
+
+/*Footer*/
+
+.footer_container {
+    display: block;
+    background-color: #96ACB7;
+    height: 150px;
+}
+
+.footer_column_left {
+    position: relative;
+    display: inline-block;
+    width: 50vw;
+    padding: 50px 0 0 30px;
+}
+
+.footer_column_right {
+    position: relative;
+    display: inline-block;
+    width: 50vw;
+    left: 1100px;
+    bottom: 40px;
+    font-size: 25px;
+    color: #fff;
+}  
+
+.footer_column_right i{
+    padding: 0 15px;
+}
+
+.footer_column_right i:hover{
+    color: #f26800;
+}
+
+/* Menu de navegacion*/
+
+nav {
+    position: absolute;
+    display: inline;
+    padding: 20px 0 0 0;
+    left: 450px;
+    width: 500px;
+}
+
+.header__menu {
+    list-style: none;
+}
+
+.header__menu li {
+    display: inline;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;    
+    padding: 0px 10px 0 10px;
+    color: #fff;
+}
+
+.header__menu li a {
+    color: #fff;
+    text-decoration: none;    
+}
+
+.header__menu li a:hover {
+    color: #f26800;
+}
+
+
+
+/*Headings*/
+
+p {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+}
+
+h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.5rem;
+}
+
+/*Secciones y elementos*/
+
+.about_container {
+    position: relative;    
+    padding: 80px 0 120px 0;
+    background-color: #f6f6f6;
+}
+
+.about_content {
+    position: relative;
+    display: inline-block;
+    width: 600px;
+    left: 400px;
+    
+}
+
+.button_medium {
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    height: auto;
+    width: auto;
+    padding: 10px 50px;
+    margin: 50px 0 0 0;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+.button_medium:hover {
+    background-color: #f26800;
+    border: 2px solid #f26800;
+}
+
+.button_medium a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.7rem;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.button_medium a:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+.info_container {
+    background-color: #A3ccab;
+    padding: 30px 0 50px 30px;
+}
+
+.info_container h3 {
+    position: relative;
+    display: inline-block;
+    left: 300px;
+    top: 30px;
+}
+
+.info_content ol {
+    position: relative;
+    left: 600px;
+}
+
+.info_content ol li {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.7rem;
+    padding: 5px;
+}
+
+.parallax_intro {
+    height: 600px;
+    background-image: url(../img/seccion-parallax.jpg);
+    background-position:bottom;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+.portfolio_intro {
+    padding: 50px 0;
+}
+
+.portrait_container {
+    position: relative;
+    display: inline-block;
+    width: 50vw;
+    background-color: #34675C;        
+}
+
+.portrait_content {
+    display: inline-block;
+}
+
+.portrait_content img {
+    padding: 50px 0 50px 50px;
+    width: 500px;
+}
+
+.portrait_text {
+    display: inline-block;
+    position: relative;
+    bottom: 175px;
+    left: 30px;   
+}
+
+.portrait_text_content {
+    width: 500px;
+}
+
+ol {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+.title_area {
+    text-align: center;
+    padding: 50px 0;
+}
