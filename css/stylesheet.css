@@ -76,7 +76,7 @@ header {
     width: 100vw;
     padding: 20px 0;    
     background-color: #151515;
-    z-index: 1;
+    z-index: 99;
 }
 
 header + main {
@@ -390,6 +390,107 @@ ol {
     padding: 50px 0;
 }
 
+/* Animaciones CSS en Index*/
+ 
+.about_content {
+    animation: fadeInDown;
+    animation-duration: 3s;
+}
+
+.button_medium {
+    animation: fadeInDown;
+    animation-duration: 3s;
+    transition: all 0.5s;
+    
+}
+
+.button_medium:hover {
+    transform: scale(1.1,1.1);
+    transition: all 0.5s;
+}
+
+.portrait_container {
+    animation: slideInLeft;
+    animation-duration: 3s;
+    transform: scale(1.0,1.0);
+    transition: all 3s;
+    z-index: 97;
+    
+}
+
+.portrait_container:hover {
+    transform: scale(1.2,1.2);
+    transition: all 3s;
+    z-index: 98;
+    
+
+}
+.portrait_text {
+    animation: slideInRight;
+    animation-duration: 3s;
+    transform: scale(1.0,1.0);
+    transition: all 2s;
+    z-index: 97;
+}
+
+.portrait_text:hover {
+    transform: scale(1.03,1.03);
+    transition: all 2s;
+    z-index: 98;
+    background: #d4e4bc;
+    color: #000;
+}
+
+.portrait_2_container {
+    animation: fadeInLeft;
+    animation-duration: 3s;
+    transform: scale(1.0,1.0);
+    transition: all 2s;
+}
+
+.portrait_2_container:hover{
+    transform: scale(1.1,1.1)
+               translate(30px,0px);
+    transition: all 3s;
+    z-index: 98;
+}
+
+.portrait_2_text {
+    animation: fadeInDown;
+    animation-duration: 4s;
+    color: #000;
+    background: #fff;
+    transition: all 1s;       
+}
+
+.portrait_2_text:hover {
+    color: #ffffff;
+    background: #151515;
+    transition: all 1s;
+
+}
+
+.portfolio_preview {
+    animation: fadeInUp;
+    animation-duration: 4s;
+    transition: all 1.5s;
+}
+
+.portfolio_preview:hover {
+    background: #dd9296;
+    transition: all 3s;
+    
+}
+
+.portfolio_preview div {
+    transform: scale(1.0,1.0);
+    transition: all 2s;
+}
+
+.portfolio_preview div:hover {
+    transform: scale(1.2,1.2);            
+    transition: all 2s;  
+}
 
 
 /* Definiciones Responsive */
