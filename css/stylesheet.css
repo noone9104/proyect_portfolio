@@ -91,7 +91,7 @@ header + main {
     justify-content: space-around;
     align-items: center;
     background-color: #96ACB7;
-    height: 70px;
+    height: 120px;
     padding: 30px 0;
 }
 
@@ -142,8 +142,8 @@ header + main {
 
 p {
     font-family: 'Libre Franklin', sans-serif;
-    font-size: 1.5rem;
-    line-height: 1.8rem;
+    font-size: 1.8rem;
+    line-height: 2.1rem;
     font-weight: 400;
 
 }
@@ -257,6 +257,7 @@ h3 {
     display: inline-block;
     height: auto;
     width: auto;
+    max-width: 115px;
     padding: 10px 50px;
     margin: 50px 0 0 0;
     border: 2px solid #000;
@@ -281,15 +282,39 @@ h3 {
     font-weight: bold;
 }
 
+.gallery_grid {
+    background: #f2b7c6;
+}
+
+.gallery_grid div {
+    padding: 20px 0 20px 0;
+    transform: scale(1.0,1.0);
+    transition: all 1s;
+}
+
+.gallery_grid div:hover {
+    padding: 20px 0 20px 0;
+    transform: scale(1.05,1.05);
+    transition: all 1s;
+}
+
 .parallax_about {
     grid-area: intro_about;
     width: 100vw;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(../img/parallax_intro_about.jpg);
     background-position:center;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.parallax_about h1 {
+    color: #f2b7c6;
+    font-weight: 600;
 }
 
 .parallax_intro {
@@ -356,6 +381,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: space-between;
 
 }
 
@@ -363,6 +389,16 @@ h3 {
     display: flex;
     flex-direction: column;
     width: 500px;
+    height: auto;
+}
+
+.portfolio_intro {
+    background: url(../img/area-portfolio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    margin-top: -3px;
+    color: #f2b7c6;    
 }
 
 .portfolio_preview {
@@ -397,6 +433,31 @@ ol {
     animation-duration: 3s;
 }
 
+.about_intro_text {
+    animation: slideInRight;
+    animation-duration: 3s;    
+    transition: all 2s;
+    z-index: 97;
+}
+
+.about_intro_text:hover {    
+    transition: all 2s;
+    z-index: 98;
+    background: #151515;
+    color: #fff;
+}
+
+.about_s5_text {
+    transition: all 2s;
+}
+
+.about_s5_text:hover {    
+    transition: all 2s;
+    z-index: 98;
+    background: #151515;
+    color: #fff;
+}
+
 .button_medium {
     animation: fadeInDown;
     animation-duration: 3s;
@@ -427,14 +488,12 @@ ol {
 }
 .portrait_text {
     animation: slideInRight;
-    animation-duration: 3s;
-    transform: scale(1.0,1.0);
+    animation-duration: 3s;    
     transition: all 2s;
     z-index: 97;
 }
 
-.portrait_text:hover {
-    transform: scale(1.03,1.03);
+.portrait_text:hover {    
     transition: all 2s;
     z-index: 98;
     background: #d4e4bc;
@@ -739,7 +798,7 @@ ol {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        height: 150px;
+        height: auto;
     }
 
     /*Fin de definiciones en index*/

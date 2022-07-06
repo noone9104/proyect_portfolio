@@ -3,22 +3,25 @@
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
-        <meta name="viewport" content="width=device-widht, initial-scale=1.0">
-        <link rel="shortcut icon" href="img/favicon.png">
-        <link rel="stylesheet" href="css/stylesheet.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/favicon.png">        
         <link href="assets/fontawesome/css/all.css" rel="stylesheet">
-        <title>Portfolio</title>
+        <title>Galeria</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.slim.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="css/stylesheet.css">
     </head>
     <body>
         <!--Encabezado de sitio desde aqui-->
-        <header>
-            <picture class="header__logo">
-                <img src="img/logo-example.png" alt="LOGO DE SITIO">
-            </picture>
-            <nav>
+        <header class="container-fluid d-flex">            
+            <nav class="container d-flex justify-content-between align-items-center">
+                <picture class="d-flex align-items-center header__logo">
+                    <img src="img/logo-example.png" alt="LOGO DE SITIO">
+                </picture>
                 <ul class="header__menu">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="portfolio.html">Galería</a></li>
                     <li><a href="about-us.html">About Us</a></li>
                     <li><a href="servicios.html">Servicios</a></li>
                     <li><a href="contacto.html">Contacto</a></li>
@@ -27,25 +30,46 @@
             </header>
         <!--Encabezado de sitio hasta aqui-->
         <main>
-            <div class="title_area">
-                <h1>Portfolio</h1>
-            </div>
-            <section>
-                <article>
-                    <a href="https://instagram.com" target="blank"><img src="img/area-portfolio.jpg" alt="Header portfolio" width="80%"></a>
-                </article>
+            <section class="container-fluid d-flex justify-content-center align-items-center portfolio_intro">
+                <div class="container">
+                    <div class="title_area">
+                        <h1>Galería</h1>
+                    </div>                    
+                </div>
+            </section>
+            <section class="container-fuid d-flex flex-wrap py-5 gallery_grid">
+                <div class="container col-12 col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
+                    <img src="img/galeria_item_1.jpg" width="300px" height="auto">
+                </div>
+                <div class="container col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
+                    <img src="img/portfolio_panadero.jpg" width="300px" height="auto">
+                </div>
+                <div class="container col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
+                    <img src="img/about_s3.jpg" width="300px" height="auto">
+                </div>
+                <div class="container col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
+                    <img src="img/s_foto_seccion2.jpg" width="300px" height="auto">
+                </div>
+                <div class="container col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
+                    <img src="img/portfolio_bruma.jpg" width="300px" height="auto">
+                </div>
+                <div class="container col-xl-4 col-md-6 col-sm-12 d-flex justify-content-center">
+                    <img src="img/galeria_item_2.jpg" width="300px" height="auto">
+                </div>
             </section>
         </main>
         <!--Footer de sitio desde aqui-->
-        <footer class="footer_container">
-            <section class="footer_column_left">
-                <img src="img/logo-example.png" alt="Logo de sitio">
-            </section>
-            <section class="footer_column_right">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-pinterest-p"></i>
-            </section>            
+        <footer class="container-fluid col-12 d-flex footer_container">
+            <div class="container d-flex justify-content-between align-items-center flex-wrap">
+                <section class="container col-xl-6 col-md-6 col-sm-12 d-flex justify-content-center py-5 footer_column_left">
+                    <img src="img/logo-example.png" alt="Logo de sitio">
+                </section>
+                <section class="container col-12 col-xl-6 col-md-6 col-sm-12 d-flex justify-content-center py-5 footer_column_right">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                </section>
+            </div>            
         </footer>
         <!--Footer de sitio hasta aqui-->
     </body>   
