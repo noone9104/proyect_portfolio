@@ -201,7 +201,7 @@ h3 {
     flex-direction: column;
     justify-content: space-between;
     align-content: center;    
-    height: 170px;
+    height: auto;
     width: 60%;
 
 }
@@ -751,6 +751,10 @@ ol {
         height: 100%;
     }
 
+    .about_content {
+        width: 90vw;        
+    }
+
     .portrait_container {
         width: 100vw;
         height: 400px;
@@ -798,7 +802,7 @@ ol {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        height: auto;
+        height: 12vh;
     }
 
     /*Fin de definiciones en index*/
@@ -830,7 +834,8 @@ ol {
     }
 
     .about_intro_text article {
-        height: 220px;
+        height: auto;
+        width: 80vw;
     
     }
         
