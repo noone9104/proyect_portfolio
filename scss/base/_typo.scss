@@ -1,0 +1,31 @@
+/*Tipografias Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
+/*Headings*/
+
+p {
+    font-family: $font-paragraph;
+    font-size: $font-small;
+    line-height: 2.1rem;
+    font-weight: $font-normal;
+
+}
+
+h1 {
+    font-family: $font-general;
+    font-size: $font-biggest;
+    font-weight: $font-semibold;    
+}
+
+h2 {
+    font-family: $font-general;
+    font-size: $font-big;
+}
+
+h3 {
+    font-family: $font-general;
+    font-size: $font-mid;
+}

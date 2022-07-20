@@ -1,0 +1,26 @@
+/*Reset CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Reglas generales*/
+
+html {
+    height: 100vh;
+    width: 100%;
+    font-size: 62.5%;
+    
+    body {
+        overflow-x: hidden;
+        background-color: #f6f6f6;
+        width: 100vw;
+        height: 100vh;
+        box-sizing: border-box;
+        
+        main {
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+/*Form Contacto*/
+
+form div {
+    padding: 0.7rem 0;
+
+    label {
+        font-size: 1.8rem;
+    }
+
+    .form-control {
+        font-size: 1.8rem;
+
+        &::placeholder {
+            font-size: 1.8rem;
+        }
+    }
+
+    .btn {
+        font-size: 1.8rem;
+    }
+
+    .custom-select {
+        font-size: 1.8rem;
+    }
+
+    textarea {
+        font-size: 1.8rem;
+        padding: 1rem 1rem;
+        border: 1px solid #ced4da;
+    }
+}

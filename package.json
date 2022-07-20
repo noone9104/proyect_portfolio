@@ -1,0 +1,15 @@
+{
+  "author": "Gon Bustos gonnbustos@gmail.com",
+  "description": "Proyecto Final",
+  "license": "MIT",
+  "name": "proyect-portfolio",
+  "scripts": {
+    "watch:css": "nodemon -e scss -x \"npm run build:css\"",
+    "build:css": "node-sass --output-style compressed scss/main.scss css/estilo.css"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "node-sass": "^7.0",
+    "nodemon": "^2.0.19"
+  }
+}

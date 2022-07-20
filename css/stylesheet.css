@@ -1,44 +1,5 @@
-/*Tipografias*/
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
-
-/*Reset CSS*/
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
-
-/*Reglas generales*/
-
-body {
-    overflow-x: hidden;
-    background-color: #f6f6f6;
-    width: 100vw;
-    height: 100vh;
-    box-sizing: border-box;
-    
-}
-
-html {
-    height: 100vh;
-    width: 100%;
-    font-size: 62.5%;
-}
-
-main {
-    
-    width: 100%;
-}
-
- /*
-header + main {
-    padding-top: 100px;
-}
-*/
+/*Grid*/
 
 #wrapper {
     display: grid;
@@ -65,23 +26,6 @@ header + main {
     align-items: center;
 }
 
-
-/*Header*/
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    position: fixed;
-    width: 100vw;
-    padding: 20px 0;    
-    background-color: #151515;
-    z-index: 99;
-}
-
-header + main {
-    padding-top: 100px;
-}
 
 /*Footer*/
 
@@ -112,57 +56,6 @@ header + main {
     color: #f26800;
 }
 
-/* Menu de navegacion*/
-
-
-.header__menu {
-    display: flex;
-    list-style: none;
-}
-
-.header__menu li {
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.6rem;    
-    padding: 0px 10px 0 10px;
-    color: #fff;
-}
-
-.header__menu li a {
-    color: #fff;
-    text-decoration: none;    
-}
-
-.header__menu li a:hover {
-    color: #f26800;
-}
-
-
-
-/*Headings*/
-
-p {
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 1.8rem;
-    line-height: 2.1rem;
-    font-weight: 400;
-
-}
-
-h1 {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 600;
-    font-size: 4rem;
-}
-
-h2 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 3rem;
-}
-
-h3 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 2.5rem;
-}
 
 /*Secciones y elementos*/
 
@@ -799,10 +692,13 @@ ol {
     }
 
     .footer_container {
-        flex-direction: column;
-        justify-content: space-between;
+        flex-direction: column;        
         align-items: center;
-        height: 12vh;
+        height: 30vh;        
+    }
+
+    .footer_column_right {
+        padding-top: 30px;
     }
 
     /*Fin de definiciones en index*/

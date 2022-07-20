@@ -1,109 +1,83 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="img/favicon.png">
-        <link rel="stylesheet" href="css/stylesheet.css">
-        <link href="assets/fontawesome/css/all.css" rel="stylesheet">
-        <title>Servicios</title>
-    </head>
-    <body>
-        <!--Encabezado de sitio desde aqui-->
-        <header>
-            <picture class="header__logo">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link href="assets/fontawesome/css/all.css" rel="stylesheet">
+    <title>Servicios - Porfolio Fotografía</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+    <!--Encabezado de sitio desde aqui-->
+    <header class="container-fluid d-flex">
+        <nav class="container d-flex justify-content-between align-items-center">
+            <picture class="d-flex align-items-center header__logo">
                 <img src="img/logo-example.png" alt="LOGO DE SITIO">
             </picture>
-            <nav>
-                <ul class="header__menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Galería</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>                        
-        </header>
-        <!--Encabezado de sitio hasta aqui-->
-        <main>
-            <div class="title_area">
-                <h1>Servicios</h1>
+            <ul class="header__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Galería</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <!--Encabezado de sitio hasta aqui-->
+    <main class="container-fluid mb-5">
+        <div class="title_area">
+            <h1>Servicios</h1>
+        </div>
+        <section class="container d-flex flex-row flex-wrap flex-sm-wrap flex-lg-nowrap flex-xl-nowrap justify-content-between">
+            <div class="card mx-5 my-5">
+                <div class="card-body">
+                    <p class="card-text">Fotografía Profesional</p>
+                </div>
+                <img src="img/ph2-card.jpg" alt="Card image">
+                <div class="card-body">
+                    <p class="card-text">Coberturas profesionales.</p>
+                </div>
             </div>
-            <section>                
-                <table class="default" border="1" cellpadding="8" cellspacing="1">
-                    <tr>
-                        <th>Packs</th>
-                        <th>Cobertura Fotografica</th>
-                        <th>Producciones Audiovisuales</th>
-                    </tr>
-                    <tr>
-                        <th>Pack 1</th>
-                        <td>
-                            <ul>
-                                <li>Cobertura basica</li>
-                                <li>50 fotografias impresas</li>
-                                <li>Book digital</li>
-                            </ul>
-                        </td>
-                        <td>
-                            <ul>
-                                <li>Cobertura basica</li>
-                                <li>1 spot para redes sociales</li>
-                                <li>1 videos adicionales</li>
-                            </ul>
-                        </td>                    
-                    </tr>
-                    <tr>
-                        <th>Pack 2</th>
-                        <td>
-                            <ul>
-                                <li>Cobertura media</li>
-                                <li>80 fotografias impresas</li>
-                                <li>Book digital e impreso</li>
-                            </ul>
-                        </td>
-                        <td>
-                            <ul>
-                                <li>Cobertura media</li>
-                                <li>3 spots para redes sociales</li>
-                                <li>3 videos adicionales</li>
-                            </ul>
-                        </td>                    
-                    </tr>
-                    <tr>
-                        <th>Pack 3</th>
-                        <td>
-                            <ul>
-                                <li>Cobertura avanzada</li>
-                                <li>100 fotografias impresas</li>
-                                <li>Book digital e impreso</li>
-                            </ul>
-                            <p>Consultar por adicionales
-                        </td>
-                        <td>
-                            <ul>
-                                <li>Cobertura avanzada</li>
-                                <li>5 spots para redes sociales</li>
-                                <li>3 videos adicionales</li>
-                                <li>Coberturas en vivo</li>                            
-                            </ul>
-                            <p>Consultar por adicionales</p>
-                        </td>                    
-                    </tr>
-                </table>                
-            </section>
-        </main>
-        <!--Footer de sitio desde aqui-->
-        <footer class="footer_container">
-            <section class="footer_column_left">
-                <img src="img/logo-example.png" alt="Logo de sitio">
-            </section>
-            <section class="footer_column_right">
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-pinterest-p"></i>
-            </section>            
-        </footer>
-    
+            <div class="card mx-5 my-5">
+                <div class="card-body">
+                    <p class="card-text">Dirección de fotografía</p>
+                </div>
+                <img src="img/ph-card.jpg" alt="Card image">
+                <div class="card-body">
+                    <p class="card-text">Composición de planos y estética visual</p>
+                </div>
+            </div>
+            <div class="card mx-5 my-5">
+                <div class="card-body">
+                    <p class="card-text">Producciones Audiovisuales</p>
+                </div>
+                <img src="img/prod-card.jpg" alt="Card image">
+                <div class="card-body">
+                    <p class="card-text">Realizaciones independientes y en clave de producción.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <!--Footer de sitio desde aqui-->
+    <footer class="footer_container">
+        <section class="footer_column_left">
+            <img src="img/logo-example.png" alt="Logo de sitio">
+        </section>
+        <section class="footer_column_right">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+        </section>
+    </footer>
+
 </html>

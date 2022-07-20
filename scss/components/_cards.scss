@@ -1,0 +1,13 @@
+/*Cards Servicios*/
+
+.card {
+    background: $color-secundario;
+    color: $color-blanco;
+    text-align: center;
+
+    p {
+        font-size: $font-small;
+        font-weight: $font-medium;
+    }
+    
+}

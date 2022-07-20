@@ -1,0 +1,44 @@
+/*Header*/
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100vw;
+    padding: 20px 0;    
+    background-color: #151515;
+    z-index: 99;
+
+
+    + main {
+        padding-top: 100px;
+    
+    }
+}
+
+
+/* Menu de navegacion*/
+
+
+.header__menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+
+    li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;    
+    padding: 0px 10px 0 10px;
+    color: #fff;
+
+        a {
+        color: #fff;
+        text-decoration: none;
+
+            &:hover {
+            color: #f26800;
+            }
+        }
+    }    
+} 
